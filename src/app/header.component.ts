@@ -38,6 +38,7 @@ import { Component } from '@angular/core';
         nav > ul > li {
             display: inline-block;
             cursor: pointer;
+            padding-left: 15px;
         }
         
         a {

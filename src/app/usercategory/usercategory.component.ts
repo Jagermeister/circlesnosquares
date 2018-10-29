@@ -22,7 +22,11 @@ import { CategoryService } from '../category/category.service';
     </ng-container>
     </table>
     `,
-    styles: [`     
+    styles: [`
+        table {
+            margin: auto;
+            text-align: left;
+        }
     `]
 })
 export class UserCategoryComponent implements OnInit {
